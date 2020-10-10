@@ -464,7 +464,7 @@
 			s_sGenName = s_sGenName.substring( 0, nIdx );
 		}
 	}
-	s_sGenName += "_" + level;
+	s_sGenName += "_" + nLevel;
 	s_sGenName += "_" + dateNow.getFullYear();
 	s_sGenName += "-" + (dateNow.getMonth() + 1);
 	s_sGenName += "-" + dateNow.getDate();
